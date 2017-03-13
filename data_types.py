@@ -1,7 +1,7 @@
  # -*- coding: utf-8 -*- 
 
 """
-Data types determine whether an object can do something
+
 
 7 important python data-types:
 
