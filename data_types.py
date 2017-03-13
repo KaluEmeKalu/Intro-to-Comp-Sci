@@ -1,3 +1,5 @@
+ # -*- coding: utf-8 -*- 
+
 """
 Data types determine whether an object can do something
 
@@ -39,7 +41,7 @@ name_translations = {"Spanish": "Emanuel Ginóbili",
 
 
 
-text = ""
+text = "\n\n"
 text += "In Chinese, he is called " + name_translations["Chinese"] + ". "
 text += "In Korean, " + name_translations["Korean"] + ", and in "
 text += "English, " + name + ". " 
@@ -53,7 +55,7 @@ text += str(career_points_per_36_minutes) + " points per 36 minutes. "
 text += "He has been named "
 text += ', '.join(awards[0:-1])
 text += ", and " + awards[-1]
-text += ". "
+text += ".\n\n"
 
 if GOAT:
     print(text)
